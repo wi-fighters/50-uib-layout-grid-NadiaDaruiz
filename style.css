@@ -4,10 +4,11 @@
     padding: 0;
 }
 
-main .container {
+.container {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(4, 100px);
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 div { 
