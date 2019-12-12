@@ -12,6 +12,6 @@
     border: 2px solid tomato;
 }
 
-div { 
+.container div { 
     border: 2px solid blue;
 }
